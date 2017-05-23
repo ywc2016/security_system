@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.buaa.sem.po.SysAuthorityResource" table="sys_authority_resource" schema="amc">
+        <id name="id" column="id"/>
+        <property name="sysAuthorityId" column="sys_authority_id"/>
+        <property name="sysResourceId" column="sys_resource_id"/>
+        <property name="enabled" column="enabled"/>
+        <property name="type" column="type"/>
+    </class>
+</hibernate-mapping>

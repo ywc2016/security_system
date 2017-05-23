@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.buaa.sem.po.SysUser" table="sys_user" schema="amc">
+        <id name="id" column="id"/>
+        <property name="name" column="name"/>
+        <property name="password" column="password"/>
+        <property name="description" column="description"/>
+        <property name="enabled" column="enabled"/>
+        <property name="email" column="email"/>
+        <property name="creatTime" column="creat_time"/>
+        <property name="headImageUrl" column="head_image_url"/>
+        <property name="userType" column="user_type"/>
+        <property name="selfIntroduction" column="self_introduction"/>
+        <property name="ip" column="ip"/>
+        <property name="checkStatus" column="check_status"/>
+        <property name="oauthType" column="oauth_type"/>
+        <property name="oauthId" column="oauth_id"/>
+        <property name="emailConfirmed" column="email_confirmed"/>
+        <property name="lastLoginTime" column="last_login_time"/>
+        <property name="emailCode" column="email_code"/>
+        <property name="emailTime" column="email_time"/>
+        <property name="emailHash" column="email_hash"/>
+        <property name="maxLogin" column="max_login"/>
+        <property name="loginIp" column="login_ip"/>
+        <property name="staffRelate" column="staff_relate"/>
+    </class>
+</hibernate-mapping>

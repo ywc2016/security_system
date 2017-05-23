@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- <property name="hibernatetool.metadatadialect">org.hibernate.cfg.reveng.dialect.SQLServerMetaDataDialect</property> -->
+		<property name="show_sql">TRUE</property>
+		<mapping resource="edu/buaa/sem/po/CusCredit.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.CusCredit"/>
+		<mapping resource="edu/buaa/sem/po/CusCustomer.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.CusCustomer"/>
+		<mapping resource="edu/buaa/sem/po/FinPaid.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.FinPaid"/>
+		<mapping resource="edu/buaa/sem/po/FinPayable.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.FinPayable"/>
+		<mapping resource="edu/buaa/sem/po/FinReceiveable.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.FinReceiveable"/>
+		<mapping resource="edu/buaa/sem/po/FinReceived.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.FinReceived"/>
+		<mapping resource="edu/buaa/sem/po/HumStaff.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.HumStaff"/>
+		<mapping resource="edu/buaa/sem/po/InfStaff.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.InfStaff"/>
+		<mapping resource="edu/buaa/sem/po/PurOrder.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.PurOrder"/>
+		<mapping resource="edu/buaa/sem/po/PurOrderGoods.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.PurOrderGoods"/>
+		<mapping resource="edu/buaa/sem/po/PurSupplier.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.PurSupplier"/>
+		<mapping resource="edu/buaa/sem/po/SalOrder.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SalOrder"/>
+		<mapping resource="edu/buaa/sem/po/SalOrderGoods.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SalOrderGoods"/>
+		<mapping resource="edu/buaa/sem/po/StoGoods.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.StoGoods"/>
+		<mapping resource="edu/buaa/sem/po/StoGoodsSupplier.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.StoGoodsSupplier"/>
+		<mapping resource="edu/buaa/sem/po/SysAuthority.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysAuthority"/>
+		<mapping resource="edu/buaa/sem/po/SysAuthorityResource.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysAuthorityResource"/>
+		<mapping resource="edu/buaa/sem/po/SysResource.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysResource"/>
+		<mapping resource="edu/buaa/sem/po/SysRole.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysRole"/>
+		<mapping resource="edu/buaa/sem/po/SysRoleAuthority.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysRoleAuthority"/>
+		<mapping resource="edu/buaa/sem/po/SysUser.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysUser"/>
+		<mapping resource="edu/buaa/sem/po/SysUserRole.hbm.xml"/>
+		<mapping class="edu.buaa.sem.po.SysUserRole"/>
+	</session-factory>
+</hibernate-configuration>

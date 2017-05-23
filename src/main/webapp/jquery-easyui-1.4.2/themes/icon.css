@@ -1,0 +1,303 @@
+.icon-blank {
+	background: url('icons/blank.gif') no-repeat center center;
+}
+
+.icon-add {
+	background: url('icons/edit_add2.png') no-repeat center center;
+}
+
+.icon-edit {
+	background: url('icons/pencil2.png') no-repeat center center;
+}
+
+.icon-clear {
+	background: url('icons/clear.png') no-repeat center center;
+}
+
+.icon-remove {
+	background: url('icons/edit_remove2.png') no-repeat center center;
+}
+
+.icon-save {
+	background: url('icons/filesave.png') no-repeat center center;
+}
+
+.icon-cut {
+	background: url('icons/cut.png') no-repeat center center;
+}
+
+.icon-ok {
+	background: url('icons/ok.png') no-repeat center center;
+}
+
+.icon-no {
+	background: url('icons/no.png') no-repeat center center;
+}
+
+.icon-cancel {
+	background: url('icons/cancel.png') no-repeat center center;
+}
+
+.icon-reload {
+	background: url('icons/reload2.png') no-repeat center center;
+}
+
+.icon-search {
+	background: url('icons/search2.png') no-repeat center center;
+}
+
+.icon-print {
+	background: url('icons/print.png') no-repeat center center;
+}
+
+.icon-help {
+	background: url('icons/help.png') no-repeat center center;
+}
+
+.icon-undo {
+	background: url('icons/undo2.png') no-repeat center center;
+}
+
+.icon-redo {
+	background: url('icons/redo2.png') no-repeat center center;
+}
+
+.icon-back {
+	background: url('icons/back.png') no-repeat center center;
+}
+
+.icon-sum {
+	background: url('icons/sum.png') no-repeat center center;
+}
+
+.icon-tip {
+	background: url('icons/tip.png') no-repeat center center;
+}
+
+.icon-filter {
+	background: url('icons/filter.png') no-repeat center center;
+}
+
+.icon-man {
+	background: url('icons/man.png') no-repeat center center;
+}
+
+.icon-lock {
+	background: url('icons/lock.png') no-repeat center center;
+}
+
+.icon-more {
+	background: url('icons/more.png') no-repeat center center;
+}
+
+.icon-mini-add {
+	background: url('icons/mini_add.png') no-repeat center center;
+}
+
+.icon-mini-edit {
+	background: url('icons/mini_edit.png') no-repeat center center;
+}
+
+.icon-mini-refresh {
+	background: url('icons/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-save {
+	background: url('icons/large_filesave.png') no-repeat center center;
+}
+
+.icon-large-cancel {
+	background: url('icons/large_cancel.png') no-repeat center center;
+}
+
+.icon-large-remove {
+	background: url('icons/large_edit_remove.png') no-repeat center center;
+}
+
+.icon-large-ok {
+	background: url('icons/large_ok.png') no-repeat center center;
+}
+
+.icon-large-picture {
+	background: url('icons/large_picture.png') no-repeat center center;
+}
+
+.icon-large-clipart {
+	background: url('icons/large_clipart.png') no-repeat center center;
+}
+
+.icon-large-shapes {
+	background: url('icons/large_shapes.png') no-repeat center center;
+}
+
+.icon-large-smartart {
+	background: url('icons/large_smartart.png') no-repeat center center;
+}
+
+.icon-large-chart {
+	background: url('icons/large_chart.png') no-repeat center center;
+}
+
+.icon-1 {
+	background: url('icons/1.png') no-repeat center center;
+}
+
+.icon-2 {
+	background: url('icons/2.png') no-repeat center center;
+}
+
+.icon-4 {
+	background: url('icons/4.png') no-repeat center center;
+}
+
+.icon-5 {
+	background: url('icons/5.png') no-repeat center center;
+}
+
+.icon-6 {
+	background: url('icons/6.png') no-repeat center center;
+}
+
+.icon-7 {
+	background: url('icons/7.png') no-repeat center center;
+}
+
+.icon-8 {
+	background: url('icons/8.png') no-repeat center center;
+}
+
+.icon-9 {
+	background: url('icons/9.png') no-repeat center center;
+}
+
+.icon-excel {
+	background: url('icons/excel.png') no-repeat center center;
+}
+
+.icon-check {
+	background: url('icons/check.png') no-repeat center center;
+}
+
+.icon-column {
+	background: url('icons/17.png') no-repeat center center;
+}
+
+.icon-content {
+	background: url('icons/45.png') no-repeat center center;
+}
+
+.icon-checkStatus {
+	background: url('icons/50.png') no-repeat center center;
+}
+
+.icon-static {
+	background: url('icons/40.png') no-repeat center center;
+}
+
+.icon-template {
+	background: url('icons/61.png') no-repeat center center;
+}
+
+.icon-comment {
+	background: url('icons/20.png') no-repeat center center;
+}
+
+.icon-video {
+	background: url('icons/video.png') no-repeat center center;
+}
+
+.icon-document {
+	background: url('icons/document.png') no-repeat center center;
+}
+
+.icon-publish-1 {
+	background: url('icons/glyphicons_135_inbox_out.png') no-repeat center
+		center;
+}
+
+.icon-edit-1 {
+	background: url('icons/glyphicons_030_pencil.png') no-repeat center
+		center;
+}
+
+.icon-search-1 {
+	background: url('icons/glyphicons_027_search.png') no-repeat center
+		center;
+}
+
+.icon-show-1 {
+	background: url('icons/glyphicons_029_notes_2.png') no-repeat center
+		center;
+}
+
+.icon-write-email {
+	background: url('icons/excel.png') no-repeat center center;
+}
+
+.icon-send-email {
+	background: url('icons/send-email.jpg') no-repeat center center;
+}
+
+.icon-activity {
+	background: url('icons/3.png') no-repeat center center;
+}
+
+.icon-tag {
+	background: url('icons/3.png') no-repeat center center;
+}
+
+.icon-teacher {
+	background: url('icons/addition (12).png') no-repeat center center;
+}
+
+.icon-course {
+	background: url('icons/addition (69).png') no-repeat center center;
+}
+
+.icon-returnAndBack {
+	background: url('icons/addition (9).png') no-repeat center center;
+}
+
+.icon-upload {
+	background: url('icons/upload.png') no-repeat center center;
+}
+
+.icon-download {
+	background: url('icons/download.png') no-repeat center center;
+}
+
+.icon-query {
+	background: url('icons/query.png') no-repeat center center;
+}
+
+.icon-encryption {
+	background: url('icons/encryption.png') no-repeat center center;
+}
+
+.icon-decrypt {
+	background: url('icons/decrypt.png') no-repeat center center;
+}
+
+.icon-delete {
+	background: url('icons/delete.png') no-repeat center center;
+}
+
+.icon-audit {
+	background: url('icons/audit.png') no-repeat center center;
+}
+
+.icon-pass {
+	background: url('icons/pass.png') no-repeat center center;
+}
+
+.icon-notPass {
+	background: url('icons/notPass.png') no-repeat center center;
+}
+
+.icon-recover {
+	background: url('icons/recover.png') no-repeat center center;
+}
+
+.icon-share {
+	background: url('icons/share.png') no-repeat center center;
+}

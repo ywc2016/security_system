@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.buaa.sem.po.FinReceiveable" table="fin_receiveable" schema="amc">
+        <id name="id" column="id"/>
+        <property name="number" column="number"/>
+        <property name="orderId" column="order_id"/>
+        <property name="amount" column="amount"/>
+        <property name="deadline" column="deadline"/>
+        <property name="isReceived" column="is_received"/>
+    </class>
+</hibernate-mapping>
