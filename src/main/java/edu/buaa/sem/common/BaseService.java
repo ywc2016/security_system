@@ -1,13 +1,8 @@
 package edu.buaa.sem.common;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.math.BigInteger;
-import java.sql.Date;
-import java.text.DecimalFormat;
-import java.util.List;
-import java.util.Properties;
-
+import edu.buaa.sem.system.dao.SysUserDao;
+import edu.buaa.sem.utils.FileUtils;
+import edu.buaa.sem.utils.PropertiesUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +10,13 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import edu.buaa.sem.system.dao.SysUserDao;
-import edu.buaa.sem.utils.FileUtils;
-import edu.buaa.sem.utils.PropertiesUtils;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.math.BigInteger;
+import java.sql.Date;
+import java.text.DecimalFormat;
+import java.util.List;
+import java.util.Properties;
 
 /**
  * Service的基本类，用户设置一些公共属性和方法，每一个Service类必须继承该类

@@ -1,12 +1,11 @@
 package securitySystem;
 
-import java.io.File;
-import java.io.IOException;
-
+import edu.buaa.sem.utils.AES;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
-import edu.buaa.sem.utils.AES;
+import java.io.File;
+import java.io.IOException;
 
 public class TestEncrypt {
 

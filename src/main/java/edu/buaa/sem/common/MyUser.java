@@ -1,11 +1,11 @@
 package edu.buaa.sem.common;
 
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+
 import java.math.BigInteger;
 import java.util.Collection;
 import java.util.List;
-
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 
 /**
  * 扩展SpringSecurity的用户模型，添加特有属性

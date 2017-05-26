@@ -1,33 +1,21 @@
 package edu.buaa.sem.document.service;
 
-import static org.mockito.Matchers.longThat;
-
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import edu.buaa.sem.common.BaseService;
+import edu.buaa.sem.document.dao.EDocumentDao;
+import edu.buaa.sem.document.dao.EDocumentVersionManagementDao;
+import edu.buaa.sem.utils.FileUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import edu.buaa.sem.common.BaseService;
-import edu.buaa.sem.document.dao.EDocumentDao;
-import edu.buaa.sem.document.dao.EDocumentVersionManagementDao;
-import edu.buaa.sem.utils.FileUtils;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import java.net.URLDecoder;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 
 @Service
 public class UploadDocumentService extends BaseService {

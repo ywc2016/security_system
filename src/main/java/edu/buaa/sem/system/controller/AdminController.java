@@ -1,13 +1,9 @@
 package edu.buaa.sem.system.controller;
 
-import java.io.IOException;
-
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import edu.buaa.sem.system.service.SysUserService;
+import edu.buaa.sem.utils.EncryptionUtils;
+import edu.buaa.sem.validate.model.ImageResult;
+import edu.buaa.sem.validate.util.GenerateImage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,10 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import edu.buaa.sem.system.service.SysUserService;
-import edu.buaa.sem.utils.EncryptionUtils;
-import edu.buaa.sem.validate.model.ImageResult;
-import edu.buaa.sem.validate.util.GenerateImage;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 @Controller
 @RequestMapping("/admin")

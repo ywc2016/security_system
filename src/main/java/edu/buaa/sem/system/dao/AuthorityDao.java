@@ -1,12 +1,11 @@
 package edu.buaa.sem.system.dao;
 
+import edu.buaa.sem.common.BaseDao;
+import edu.buaa.sem.common.IDao;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
-
-import edu.buaa.sem.common.BaseDao;
-import edu.buaa.sem.common.IDao;
 
 @Repository
 public class AuthorityDao extends BaseDao<SysAuthority> implements

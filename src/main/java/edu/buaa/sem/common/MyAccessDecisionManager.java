@@ -1,8 +1,5 @@
 package edu.buaa.sem.common;
 
-import java.util.Collection;
-import java.util.Iterator;
-
 import org.springframework.security.access.AccessDecisionManager;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.access.ConfigAttribute;
@@ -10,6 +7,9 @@ import org.springframework.security.access.SecurityConfig;
 import org.springframework.security.authentication.InsufficientAuthenticationException;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
+
+import java.util.Collection;
+import java.util.Iterator;
 
 /**
  * 访问决策器：用来决定用户是否拥有访问权限的关键类，其接口为AccessDecisionManager。这个

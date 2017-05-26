@@ -1,13 +1,11 @@
 package edu.buaa.sem.system.controller;
 
+import edu.buaa.sem.system.service.SysRoleAuthorityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import edu.buaa.sem.system.service.SysRoleAuthorityService;
-import edu.buaa.sem.system.service.SysRoleService;
 
 @Controller
 @RequestMapping(value = "admin/system/roleAuthority")

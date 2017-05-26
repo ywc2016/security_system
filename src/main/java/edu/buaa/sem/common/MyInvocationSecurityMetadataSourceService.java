@@ -1,14 +1,5 @@
 package edu.buaa.sem.common;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.security.access.ConfigAttribute;
@@ -16,6 +7,9 @@ import org.springframework.security.access.SecurityConfig;
 import org.springframework.security.web.FilterInvocation;
 import org.springframework.security.web.access.intercept.FilterInvocationSecurityMetadataSource;
 import org.springframework.security.web.util.matcher.RegexRequestMatcher;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.*;
 
 /**
  * 资源权限获取器：用来取得访问某个URL或者方法所需要的权限，接口为SecurityMetadataSource

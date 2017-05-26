@@ -1,22 +1,19 @@
 package edu.buaa.sem.document.service;
 
-import static org.mockito.Matchers.longThat;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import edu.buaa.sem.common.BaseService;
+import edu.buaa.sem.document.dao.EDocumentDao;
+import edu.buaa.sem.utils.AES;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import edu.buaa.sem.common.BaseService;
-import edu.buaa.sem.document.dao.EDocumentDao;
-import edu.buaa.sem.utils.AES;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class EDocumentService extends BaseService {
@@ -29,7 +26,7 @@ public class EDocumentService extends BaseService {
 	}
 
 	public Map<String, Object> findByParamsForPagination(EDocument eDocument, Map<String, Object> conditionString,
-			String rows, String page, String order, String sort) {
+														 String rows, String page, String order, String sort) {
 		Map<String, Object> responseJson = new HashMap<>();
 		List list = eDocumentDao.findByParamsForPagination(eDocument, conditionString, rows, page, order, sort);
 		responseJson.put("rows", list);

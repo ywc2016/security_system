@@ -1,8 +1,7 @@
 package securitySystem;
 
-import org.junit.Test;
-
 import edu.buaa.sem.document.service.DocumentBackupService;
+import org.junit.Test;
 
 public class TestZip {
 	private DocumentBackupService documentBackupService = new DocumentBackupService();

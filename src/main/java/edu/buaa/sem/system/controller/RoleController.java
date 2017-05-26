@@ -1,9 +1,9 @@
 package edu.buaa.sem.system.controller;
 
-import java.util.Map;
-
-import javax.validation.Valid;
-
+import edu.buaa.sem.system.model.DatagridModel;
+import edu.buaa.sem.system.service.SysRoleService;
+import edu.buaa.sem.system.service.SysUserRoleService;
+import edu.buaa.sem.system.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,10 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import edu.buaa.sem.system.model.DatagridModel;
-import edu.buaa.sem.system.service.SysRoleService;
-import edu.buaa.sem.system.service.SysUserRoleService;
-import edu.buaa.sem.system.service.SysUserService;
+import javax.validation.Valid;
+import java.util.Map;
 
 @RequestMapping(value = "admin/system/role")
 @Controller

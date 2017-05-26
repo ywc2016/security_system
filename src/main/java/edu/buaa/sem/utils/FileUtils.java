@@ -1,28 +1,17 @@
 package edu.buaa.sem.utils;
 
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.awt.Transparency;
+import org.apache.commons.lang.StringEscapeUtils;
+import org.springframework.web.context.ContextLoader;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.CropImageFilter;
 import java.awt.image.FilteredImageSource;
 import java.awt.image.ImageFilter;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
 import java.net.URLDecoder;
-
-import javax.imageio.ImageIO;
-
-import org.apache.commons.lang.StringEscapeUtils;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.multipart.MultipartFile;
 
 public class FileUtils {
 

@@ -1,11 +1,10 @@
 package edu.buaa.sem.user.dao;
 
-import java.util.List;
-
+import edu.buaa.sem.common.BaseDao;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
 
-import edu.buaa.sem.common.BaseDao;
+import java.util.List;
 
 @Repository
 public class UserDao extends BaseDao<SysUser> {

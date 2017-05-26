@@ -1,8 +1,6 @@
 package edu.buaa.sem.system.dao;
 
-import java.util.HashMap;
-import java.util.List;
-
+import edu.buaa.sem.common.BaseDao;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.hibernate.Criteria;
@@ -11,7 +9,8 @@ import org.hibernate.Query;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import edu.buaa.sem.common.BaseDao;
+import java.util.HashMap;
+import java.util.List;
 
 @Repository
 public class SysUserDao extends BaseDao<SysUser> {
@@ -133,7 +132,7 @@ public class SysUserDao extends BaseDao<SysUser> {
 	}
 
 	public Query contrustString(SysUser pojo, HashMap conditionString, String queryString, String sort, String order) {
-		if (pojo.getId() != null) {
+		if (0 != pojo.getId()) {
 			queryString += " and a.id =:id";
 		}
 		if (pojo.getName() != null && !pojo.getName().isEmpty()) {
@@ -169,7 +168,7 @@ public class SysUserDao extends BaseDao<SysUser> {
 		Query query = sessionFactory.getCurrentSession().createQuery(queryString);
 		// ---------------------下面是赋值操作------------------------
 
-		if (pojo.getId() != null) {
+		if (0 != pojo.getId()) {
 			query.setLong("id", pojo.getId());
 		}
 		if (pojo.getName() != null && !pojo.getName().isEmpty()) {

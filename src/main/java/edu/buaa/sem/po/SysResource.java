@@ -3,10 +3,10 @@ package edu.buaa.sem.po;
 import javax.persistence.*;
 
 /**
- * Created by ywcrm on 2017/5/23.
+ * Created by ywcrm on 2017/5/26.
  */
 @Entity
-@Table(name = "sys_resource", schema = "amc", catalog = "")
+@Table(name = "sys_resource", schema = "security_system", catalog = "")
 public class SysResource {
     private long id;
     private String name;

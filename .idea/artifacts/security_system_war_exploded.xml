@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="amc:war exploded">
+  <artifact type="exploded-war" name="security_system:war exploded">
     <output-path>$PROJECT_DIR$/target/amc</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">

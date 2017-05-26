@@ -1,19 +1,18 @@
 package edu.buaa.sem.system.controller;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-
 import edu.buaa.sem.system.model.DatagridModel;
 import edu.buaa.sem.system.service.AuthorityService;
 import edu.buaa.sem.system.service.SysRoleService;
 import edu.buaa.sem.system.service.SysUserRoleService;
 import edu.buaa.sem.system.service.SysUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @RequestMapping(value = "admin/system/authority")
 @Controller
@@ -47,7 +46,7 @@ public class SysAuthorityController {
 
 	/**
 	 * 根据sysRoleId查找其对应的权限情况，并返回json
-	 * 
+	 *
 	 * @return
 	 */
 	@RequestMapping(value = "/findRoleAuthorityByRoleIdForPagination")

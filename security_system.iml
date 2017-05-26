@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
@@ -22,8 +22,12 @@
       <configuration>
         <datasource-map>
           <unit-entry name="hib:hibernate.cfg.xml" value="50638aea-08eb-4388-ac78-e243f0cedc9b" />
+          <unit-entry name="sessionFactory" value="50638aea-08eb-4388-ac78-e243f0cedc9b" />
         </datasource-map>
-        <naming-strategy-map />
+        <naming-strategy-map>
+          <unit-entry name="hib:hibernate.cfg.xml" />
+          <unit-entry name="sessionFactory" />
+        </naming-strategy-map>
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/resources/hib/hibernate.cfg.xml" />
       </configuration>
     </facet>

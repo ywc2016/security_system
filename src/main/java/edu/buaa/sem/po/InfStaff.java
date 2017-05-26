@@ -4,10 +4,10 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 /**
- * Created by ywcrm on 2017/5/23.
+ * Created by ywcrm on 2017/5/26.
  */
 @Entity
-@Table(name = "inf_staff", schema = "amc", catalog = "")
+@Table(name = "inf_staff", schema = "security_system", catalog = "")
 public class InfStaff {
     private long id;
     private String number;

@@ -1,17 +1,16 @@
 package edu.buaa.sem.system.service;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import edu.buaa.sem.common.BaseService;
 import edu.buaa.sem.system.dao.AuthorityDao;
 import edu.buaa.sem.system.dao.SysRoleAuthorityDao;
 import edu.buaa.sem.system.model.DatagridModel;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Service
 public class AuthorityService extends BaseService {
@@ -22,7 +21,7 @@ public class AuthorityService extends BaseService {
 	private SysRoleAuthorityDao sysRoleAuthorityDao;
 
 	public List<SysAuthority> findByExampleForPagination(SysAuthority pojo, String page, String rows, String sort,
-			String order) {
+														 String order) {
 		List<SysAuthority> pojos;
 		if (sort != null && !sort.equals("") && order != null && !order.equals("")) {
 			pojos = sysAuthorityDao.findByExampleForPagination(pojo, true, page, rows, sort, order);

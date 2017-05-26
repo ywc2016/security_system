@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="amc" />
+        <module name="security_system" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="amc" target="1.7" />
+      <module name="security_system" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

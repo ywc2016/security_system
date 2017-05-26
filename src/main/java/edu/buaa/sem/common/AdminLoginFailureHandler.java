@@ -1,14 +1,7 @@
 package edu.buaa.sem.common;
 
-import java.io.IOException;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Properties;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import edu.buaa.sem.utils.IpUtils;
+import edu.buaa.sem.utils.PropertiesUtils;
 import org.apache.commons.lang.StringUtils;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -18,8 +11,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 
-import edu.buaa.sem.utils.IpUtils;
-import edu.buaa.sem.utils.PropertiesUtils;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.List;
+import java.util.Properties;
 
 public class AdminLoginFailureHandler implements AuthenticationFailureHandler {
 
